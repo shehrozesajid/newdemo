@@ -1,0 +1,172 @@
+{course === 'taxlaw' && (
+  <div id="taxlaw_outline_page">
+    <header id="taxlaw_outline_header">
+      <h1 id="taxlaw_outline_heading">Taxation Law — 3-Month Course (12 Weeks)</h1>
+      <p id="taxlaw_outline_subtitle">
+        Duration: 12 Weeks | 3–4 Hours per Week (Lectures + Tutorials + Discussions)
+      </p>
+    </header>
+
+    <main id="taxlaw_outline_container">
+      {/* Objectives */}
+      <section className="taxlaw_outline_section">
+        <h2 className="taxlaw_outline_title">Course Objectives</h2>
+        <ul className="taxlaw_outline_list">
+          <li>Explain the basic principles and purposes of taxation.</li>
+          <li>Identify and apply the major heads of income and exemptions.</li>
+          <li>Understand the operation of indirect taxes (e.g., GST/VAT).</li>
+          <li>Recognize procedures for tax assessment, appeals, and penalties.</li>
+          <li>Appreciate emerging issues in domestic and international taxation.</li>
+        </ul>
+      </section>
+
+      {/* Month 1 */}
+      <section className="taxlaw_outline_section">
+        <h2 className="taxlaw_outline_title">Month 1 – Foundations of Taxation</h2>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 1: Introduction to Taxation</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Concept and objectives of taxation</li>
+            <li>Types of taxes: direct and indirect</li>
+            <li>Principles of a good tax system (equity, certainty, convenience, efficiency)</li>
+            <li>Overview of national tax structure</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 2: Sources and Constitutional Framework</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Constitutional basis of taxing powers</li>
+            <li>Important tax statutes and authorities</li>
+            <li>Hierarchy of tax laws and case law interpretation</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 3: Basic Concepts in Tax Law</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Meaning of income, assessee, previous year, assessment year</li>
+            <li>Residential status and scope of total income</li>
+            <li>Distinction between capital and revenue</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 4: Exemptions and Deductions</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Tax-free incomes</li>
+            <li>Common deductions and allowances</li>
+            <li>Overview of tax computation</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Month 2 */}
+      <section className="taxlaw_outline_section">
+        <h2 className="taxlaw_outline_title">Month 2 – Income Tax and Indirect Tax</h2>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 5: Heads of Income – Part I</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Salaries</li>
+            <li>Income from house property</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 6: Heads of Income – Part II</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Profits and gains from business or profession</li>
+            <li>Capital gains</li>
+            <li>Income from other sources</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 7: Computation and Filing</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Tax computation and rates</li>
+            <li>Return filing procedures</li>
+            <li>Advance tax and TDS/TCS</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 8: Indirect Taxation (GST/VAT Basics)</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Concept and structure of GST/VAT</li>
+            <li>Supply, input tax credit, registration, and filing</li>
+            <li>Customs duties (if relevant)</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Month 3 */}
+      <section className="taxlaw_outline_section">
+        <h2 className="taxlaw_outline_title">
+          Month 3 – Administration, International, and Policy Issues
+        </h2>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 9: Tax Administration and Compliance</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Powers of tax authorities</li>
+            <li>Assessment, audit, and collection of taxes</li>
+            <li>Penalties, offences, and prosecution</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 10: Tax Avoidance and Evasion</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Difference between avoidance and evasion</li>
+            <li>Anti-avoidance measures</li>
+            <li>Ethical aspects of tax planning</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 11: International and Contemporary Taxation</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Basics of international taxation</li>
+            <li>Double Taxation Avoidance Agreements (DTAAs)</li>
+            <li>Emerging issues: digital economy, environmental taxes</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_week">
+          <h3 className="taxlaw_outline_weektitle">Week 12: Review and Case Studies</h3>
+          <ul className="taxlaw_outline_list">
+            <li>Practical exercises and case analysis</li>
+            <li>Tax planning scenarios</li>
+            <li>Course review and final assessment</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Assessment and Readings */}
+      <section id="taxlaw_outline_extras">
+        <div className="taxlaw_outline_extra_card">
+          <h2 className="taxlaw_outline_title">Assessment Structure</h2>
+          <ul className="taxlaw_outline_list">
+            <li>Class participation / quizzes – 10%</li>
+            <li>Midterm test (Week 6) – 20%</li>
+            <li>Research paper or case study – 20%</li>
+            <li>Final exam (Week 12) – 50%</li>
+          </ul>
+        </div>
+
+        <div className="taxlaw_outline_extra_card">
+          <h2 className="taxlaw_outline_title">Recommended Readings</h2>
+          <ul className="taxlaw_outline_list">
+            <li>Relevant national tax code or act (e.g., Income Tax Act, GST Act)</li>
+            <li><em>Kanga & Palkhivala, The Law and Practice of Income Tax</em></li>
+            <li><em>OECD, Model Tax Convention (selected readings)</em></li>
+            <li>Government circulars, case law, and policy papers</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+)}

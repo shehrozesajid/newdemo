@@ -1,0 +1,1483 @@
+/* .............header................ */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 120px;
+    background-color: white
+}
+
+#a1 {
+    height: 100px;
+    background-color: white;
+}
+
+#a2 {
+    height: 100%;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+#a3 {
+    font-size: 120px;
+    position: absolute;
+    top: -10px;
+    left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#a3:hover {
+    text-shadow: 2px 2px grey;
+}
+#a33{
+ position: absolute;top: 40px;left: 1090px;
+}
+#a33 h1{
+  font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 60px;
+    align-items: center;
+}
+
+a:hover {
+    box-shadow: 2px 2px grey;
+    background-color: black;
+    color: white;
+
+}
+
+/* .................footer........................ */
+footer {
+    height: 350px !important;
+    background-color:whitesmoke;
+      padding: 20px 0; /* use padding instead of fixed height */
+  height: auto;    /* let it expand naturally */
+  
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size:49px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#a4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ....................home.................. */
+.a5 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 1. Set text color to contrast with the glow */
+    color: white; 
+    
+    /* 2. THE GLOW EFFECT */
+    text-shadow:
+        /* h-offset v-offset blur-radius color */
+        /* 0 0 10px #fff,  Inner white core */
+        /* 0 0 20px #fff,  Medium glow */
+        0 0 30px #fff,  /* Wider glow */
+        0 0 40px #fff;  /* Soft, furthest glow */
+        background-color: black;
+}
+.a5 a{
+    text-decoration: none;color: white;box-shadow: none;
+}
+/* ......................///carousal............ */
+
+.a6{
+    height: 250px;
+}
+.a7{
+    height: 250px;width: 100%;
+}
+.a8{
+   height: 250px;
+}
+.a8 img{
+    width: 100%;height: 100%;
+}
+.a9{
+height: 250px;
+}
+.a10{
+ height: 250px;
+}
+.a10 img{
+    width: 100%;height: 100%;
+}
+/* .....................................card................... */
+/* ..........................Courses........................... */
+#a11{
+    font-weight: bolder;
+      
+    text-align: center;
+ 
+    /* 1. Set text color to contrast with the glow */
+    color: white; 
+    
+    /* 2. THE GLOW EFFECT */
+    text-shadow:
+        /* h-offset v-offset blur-radius color */
+        /* 0 0 10px #fff,  Inner white core */
+        /* 0 0 20px #fff,  Medium glow */
+        0 0 30px #fff,  /* Wider glow */
+        0 0 40px #fff;  /* Soft, furthest glow */
+        background-color: black;
+}
+#a12{
+    background-color: gray;
+}
+#a13{
+height: 380px;margin-bottom: 20px;
+}
+#a13_1{
+height: 150px;
+}
+/* //registration */
+input{
+    background-color: white!important
+}
+#a14{
+    border: 1px solid grey;background-color:black;box-shadow: 10px 10px 30px black;color: white;font-weight: bolder;
+}
+#a15{
+    box-shadow: 20px 20px 30px;
+}
+#a15:hover{
+box-shadow: 10px 10px 30px black;
+
+}
+/* ...............map.......................... */
+.mainDiv{
+    height: 300px;
+}
+iframe{
+box-shadow: 10px 10px 30px black;position: absolute;top: 0px;left: 700px;}
+.a16{
+box-shadow: 10px 10px 30px black;
+text-shadow: 10px 10px 30px black;position: relative;
+}
+
+/* ..................................fee................................... */
+#a17{
+    background-color: black;height: 770px;margin-top: 20px;margin-bottom: 20px;box-shadow: 10px 10px 20px black;
+}
+
+th{
+    text-shadow: 0px 0px 10px black
+}
+/* ..................................about us.......................... */
+/* 🌟 ABOUT PAGE STYLING 🌟 */
+.about-page {
+  padding-top: 60px;
+  margin-top: 30px;
+}
+
+/* ----- Headings ----- */
+.about-page h1,
+.about-page h2,
+.about-page h4 {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: white;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* ----- Vision Section Text ----- */
+.vision-section p {
+  color: black;
+  font-size: 18px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+/* ----- Vision Section Box ----- */
+.vision-section {
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  border: 2px solid black;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
+  padding: 40px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ----- CEO Cards ----- */
+.card {
+  border: 2px solid black !important;
+  border-radius: 0px !important;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 14px 14px 35px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* ----- Text Styling ----- */
+.about-page p {
+  font-size: 17px;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-page strong {
+  color: black;
+  text-shadow: 1px 1px 6px grey;
+}
+
+/* ----- Contact Section ----- */
+.about-page .contact-section {
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+/* ----- Add subtle animation ----- */
+.about-page h1,
+.about-page h2 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ..........................timetable................................. */
+/* Main container styling */
+.timetable-container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 25px black;
+  padding: 40px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Heading with glow and border */
+.timetable-heading {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 15px blue, 0 0 30px black;
+  border: 3px solid white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px black;
+  margin-bottom: 40px;
+  background-color: #1a1a1a;
+}
+
+/* Table outline and style */
+#a20 {
+  outline: 6px groove white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px black;
+  background-color: #1a1a1a;
+}
+
+/* Table header */
+#a19 th {
+  text-shadow: 0px 0px 10px white;
+  background-color: #111;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Table body */
+#a20 td {
+  text-align: center;
+  padding: 14px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+}
+
+/* Hover effect for rows */
+#a20 tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(1.01);
+  box-shadow: 0 0 15px white;
+}
+
+/* Sunday row styling */
+.off-day td {
+  color: red;
+  font-weight: bold;
+  background-color: #111;
+  text-shadow: 0 0 10px red;
+  letter-spacing: 1px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timetable-container {
+    padding: 20px;
+  }
+
+  .timetable-heading {
+    font-size: 1.8rem;
+    padding: 8px 20px;
+  }
+
+  #a20 td,
+  #a20 th {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+/* .........................contact us.................. */
+/* Main container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: whitesmoke;
+}
+
+/* Contact box */
+.contact-box {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0px 0px 25px black;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/* Heading */
+.contact-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px black;
+  color: #1a1a1a;
+}
+
+/* Description text */
+.contact-text {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px black;
+}
+
+/* Details */
+.contact-details {
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 500px;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+.contact-details i {
+  color: #1a1a1a;
+  margin-right: 8px;
+  text-shadow: 1px 1px 4px black;
+}
+
+/* ................................outlines .css............................./ */
+/* ..................................OUTLINES PAGE................................... */
+
+#outline_page {
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+#outline_heading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 25px white, 0 0 40px black;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto 40px auto;
+  width: 90%;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-shadow: 0 0 25px black;
+}
+
+#outline_container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 25px black;
+  padding: 30px 40px;
+}
+
+.outline_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.outline_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.outline_title {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px grey;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.outline_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.outline_list li {
+  margin-bottom: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #outline_container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  #outline_heading {
+    font-size: 32px;
+    width: 95%;
+  }
+
+  .outline_title {
+    font-size: 22px;
+  }
+
+  .outline_list {
+    font-size: 16px;
+  }
+}
+/* ...................youtube autoation...................../ */
+/* YouTube Automation Outline (unique classes prefixed with ytoutline_) */
+
+#ytoutline_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* Heading matches your project's glow + black scheme */
+#ytoutline_heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 18px;
+  margin: 0 auto 36px auto;
+  width: 92%;
+  border: 3px solid white;
+  border-radius: 14px;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0,0,0,0.6);
+  box-shadow: 0 0 25px black;
+}
+
+/* main white container */
+#ytoutline_container {
+  width: 86%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 14px;
+  box-shadow: 10px 10px 25px black;
+  padding: 28px 36px;
+}
+
+/* module card */
+.ytoutline_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 22px;
+  margin-bottom: 34px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ytoutline_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* module title style */
+.ytoutline_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+}
+
+/* list styling */
+.ytoutline_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.75;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.12);
+}
+
+.ytoutline_list li {
+  margin-bottom: 8px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  #ytoutline_container {
+    width: 96%;
+    padding: 18px;
+  }
+
+  #ytoutline_heading {
+    font-size: 30px;
+    width: 96%;
+  }
+
+  .ytoutline_title {
+    font-size: 20px;
+  }
+
+  .ytoutline_list {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+}
+/* ...............................................DM........................./ */
+#dm_outline_page {
+  background-color: whitesmoke;
+  padding: 40px 0 60px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dm_outline_heading {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto 40px auto;
+  width: 90%;
+  border: 3px solid white;
+  border-radius: 15px;
+  text-shadow: 0 0 25px white, 0 0 40px black;
+  box-shadow: 0 0 25px black;
+}
+
+#dm_outline_container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 25px black;
+  padding: 30px 40px;
+}
+
+.dm_outline_intro {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.dm_outline_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dm_outline_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.dm_outline_title {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px grey;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dm_outline_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dm_outline_list li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #dm_outline_container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  #dm_outline_heading {
+    font-size: 32px;
+    width: 95%;
+  }
+
+  .dm_outline_title {
+    font-size: 22px;
+  }
+
+  .dm_outline_list {
+    font-size: 16px;
+  }
+}
+
+/* ................ethical hacking................. */
+/* === ETHICAL HACKING OUTLINE PAGE === */
+/* ===================== ETHICAL HACKING OUTLINE PAGE ===================== */
+/* Following the YouTube Automation CSS structure and theme */
+
+#ethical_outline_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* === Heading === */
+#ethical_outline_heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 18px;
+  margin: 0 auto 36px auto;
+  width: 92%;
+  border: 3px solid white;
+  border-radius: 14px;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 25px black;
+}
+
+/* === Main container === */
+#ethical_outline_container {
+  width: 86%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 14px;
+  box-shadow: 10px 10px 25px black;
+  padding: 28px 36px;
+}
+
+/* === Each module card === */
+.ethical_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 22px;
+  margin-bottom: 34px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ethical_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* === Title inside each module === */
+.ethical_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* === List of topics === */
+.ethical_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.75;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.ethical_list li {
+  margin-bottom: 8px;
+}
+
+/* === Paragraphs (tools / final project text) === */
+.ethical_text {
+  color: #111;
+  font-size: 17px;
+  line-height: 1.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  #ethical_outline_container {
+    width: 96%;
+    padding: 18px;
+  }
+
+  #ethical_outline_heading {
+    font-size: 30px;
+    width: 96%;
+  }
+
+  .ethical_title {
+    font-size: 20px;
+  }
+
+  .ethical_list,
+  .ethical_text {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+}
+/* ===================== GRAPHIC DESIGNING OUTLINE PAGE ===================== */
+/* Following your existing project’s black-white elegant style */
+
+#graphic_outline_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* === Main Heading === */
+#graphic_outline_heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 18px;
+  margin: 0 auto 36px auto;
+  width: 92%;
+  border: 3px solid white;
+  border-radius: 14px;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 25px black;
+}
+
+/* === Container === */
+#graphic_outline_container {
+  width: 86%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 14px;
+  box-shadow: 10px 10px 25px black;
+  padding: 28px 36px;
+}
+
+/* === Each Weekly Section === */
+.graphic_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 22px;
+  margin-bottom: 34px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.graphic_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* === Titles === */
+.graphic_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* === Lists === */
+.graphic_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.75;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.graphic_list li {
+  margin-bottom: 8px;
+}
+
+/* === Text (activities, assignments, etc.) === */
+.graphic_text {
+  color: #111;
+  font-size: 17px;
+  line-height: 1.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  margin-top: 6px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  #graphic_outline_container {
+    width: 96%;
+    padding: 18px;
+  }
+
+  #graphic_outline_heading {
+    font-size: 30px;
+    width: 96%;
+  }
+
+  .graphic_title {
+    font-size: 20px;
+  }
+
+  .graphic_list,
+  .graphic_text {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+}
+/* ....................................SMM.......................... */
+/* ===================== SOCIAL MEDIA MARKETING COURSE OUTLINE ===================== */
+/* Reset box sizing */
+#social_outline_page_fixed,
+#social_outline_page_fixed * {
+  box-sizing: border-box;
+}
+
+/* Page */
+#social_outline_page_fixed {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding: 40px 2.5%;
+}
+
+/* Heading (glow + black background like your pattern) */
+#social_outline_heading_fixed {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 16px;
+  width: 92%;
+  margin: 0 auto 30px auto;
+  border-radius: 12px;
+  border: 3px solid white;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0,0,0,0.6);
+  box-shadow: 0 0 25px black;
+}
+
+/* Container */
+#social_outline_container_fixed {
+  width: 86%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 26px 30px;
+  box-shadow: 10px 10px 25px black;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* Module card */
+.outline_card {
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.45);
+  overflow: visible; /* allow shadows to show */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Make sure cards expand to fit content (no fixed height) */
+.outline_card_body {
+  padding: 18px 22px 24px 22px;
+  height: auto;
+}
+
+/* Header pill */
+.outline_card_header {
+  background: black;
+  color: white;
+  padding: 10px 18px;
+  margin: 12px 18px 0 18px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title inside header */
+.outline_card_header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 6px grey;
+}
+
+/* Hover lift */
+.outline_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0,0,0,0.6);
+}
+
+/* Lists and notes */
+.outline_points {
+  list-style-type: disc;
+  padding-left: 36px;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 8px 0 12px 0;
+}
+
+.outline_points li { margin-bottom: 8px; }
+
+.outline_note {
+  color: #111;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  #social_outline_container_fixed { width: 96%; padding: 18px; }
+  #social_outline_heading_fixed { font-size: 30px; width: 96%; }
+  .outline_card_header h2 { font-size: 18px; }
+  .outline_points, .outline_note { font-size: 15px; padding-left: 28px; }
+}
+
+/* OVERRIDES FOR GLOBAL IFRAME/MAIN conflicts (only inside this container) */
+/* If your global CSS forced iframe absolute, this reset will undo it here */
+#social_outline_container_fixed iframe {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+/* If global .mainDiv had fixed height, ensure nothing inside our container inherits it */
+#social_outline_container_fixed .mainDiv {
+  height: auto !important;
+  min-height: 0 !important;
+}
+/* ................video editing................./ */
+.main-container {
+  width: 85%;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.week-box {
+  background: linear-gradient(to bottom right, #fdfdfd, #f4f4f4);
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 35px;
+  box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.week-header {
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.week-box ul {
+  margin-left: 20px;
+  line-height: 1.8;
+  list-style-type: disc;
+}
+
+.week-box ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.week-box p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.week-box b {
+  color: #000;
+}
+
+.outcome {
+  background: #fafafa;
+  border: 2px solid #000;
+}
+/* ......../...............shopify...................... */
+/* ===================== SHOPIFY COURSE OUTLINE PAGE ===================== */
+/* Unique selectors with #shopify_outline_ prefix to avoid conflicts */
+
+#shopify_outline_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* === Heading === */
+#shopify_outline_heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 18px;
+  margin: 0 auto 36px auto;
+  width: 92%;
+  border: 3px solid white;
+  border-radius: 14px;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0,0,0,0.6);
+  box-shadow: 0 0 25px black;
+}
+
+/* === Main Container === */
+#shopify_outline_container {
+  width: 86%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 14px;
+  box-shadow: 10px 10px 25px black;
+  padding: 28px 36px;
+}
+
+/* === Each Module Box === */
+.shopify_module {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 22px;
+  margin-bottom: 34px;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.shopify_module:hover {
+  transform: translateY(-6px);
+  box-shadow: 12px 12px 30px rgba(0,0,0,0.6);
+}
+
+/* === Module Titles === */
+.shopify_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+}
+
+/* === Lists === */
+.shopify_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.75;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.12);
+}
+
+.shopify_list li {
+  margin-bottom: 8px;
+}
+
+/* === Text paragraphs (if any) === */
+.shopify_text {
+  color: #111;
+  font-size: 17px;
+  line-height: 1.7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  #shopify_outline_container {
+    width: 96%;
+    padding: 18px;
+  }
+
+  #shopify_outline_heading {
+    font-size: 30px;
+    width: 96%;
+  }
+
+  .shopify_title {
+    font-size: 20px;
+  }
+
+  .shopify_list,
+  .shopify_text {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+}
+/* ===================== TAXATION LAW COURSE OUTLINE ===================== */
+
+#taxlaw_outline_page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f7f7f7;
+  padding: 40px 0 60px;
+}
+
+#taxlaw_outline_header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#taxlaw_outline_heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 18px;
+  width: 90%;
+  margin: 0 auto 16px;
+  border-radius: 14px;
+  border: 3px solid white;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px #000;
+}
+
+#taxlaw_outline_subtitle {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#taxlaw_outline_container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 14px;
+  padding: 30px 36px;
+  box-shadow: 10px 10px 25px #000;
+}
+
+/* === Section and Week Cards === */
+.taxlaw_outline_section {
+  margin-bottom: 40px;
+}
+
+.taxlaw_outline_week {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #eef1f4);
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s ease;
+}
+
+.taxlaw_outline_week:hover {
+  transform: translateY(-4px);
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.taxlaw_outline_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.taxlaw_outline_weektitle {
+  font-size: 20px;
+  color: #111;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.taxlaw_outline_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  font-size: 17px;
+  color: #111;
+  line-height: 1.7;
+}
+
+/* === Extras === */
+#taxlaw_outline_extras {
+  margin-top: 40px;
+}
+
+.taxlaw_outline_extra_card {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #e9ecef);
+  padding: 22px;
+  margin-bottom: 30px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  #taxlaw_outline_container {
+    width: 94%;
+    padding: 20px;
+  }
+
+  #taxlaw_outline_heading {
+    font-size: 30px;
+    width: 95%;
+  }
+
+  .taxlaw_outline_title {
+    font-size: 20px;
+  }
+
+  .taxlaw_outline_list {
+    font-size: 15px;
+    padding-left: 25px;
+  }
+}
+/* ===================== SEO COURSE OUTLINE ===================== */
+
+#seo_outline_page {
+  font-family: "Georgia", serif;
+  background-color: #f7f7f7;
+  padding: 40px 0 60px;
+}
+
+#seo_outline_header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#seo_outline_heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 18px;
+  width: 90%;
+  margin: 0 auto 16px;
+  border-radius: 14px;
+  border: 3px solid white;
+  text-shadow: 0 0 20px white, 0 0 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px #000;
+}
+
+#seo_outline_subtitle {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#seo_outline_container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 14px;
+  padding: 30px 36px;
+  box-shadow: 10px 10px 25px #000;
+}
+
+/* === Sections === */
+.seo_outline_section {
+  margin-bottom: 40px;
+}
+
+.seo_outline_title {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  text-shadow: 2px 2px 6px grey;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.seo_outline_list {
+  list-style-type: disc;
+  padding-left: 40px;
+  font-size: 17px;
+  color: #111;
+  line-height: 1.7;
+}
+
+.seo_outline_practical {
+  background-color: #f3f3f3;
+  border-left: 5px solid black;
+  padding: 10px 15px;
+  font-style: italic;
+  color: #222;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+/* === Extras === */
+#seo_outline_extras {
+  margin-top: 40px;
+}
+
+.seo_outline_extra_card {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #efefef);
+  padding: 22px;
+  margin-bottom: 30px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  #seo_outline_container {
+    width: 94%;
+    padding: 20px;
+  }
+
+  #seo_outline_heading {
+    font-size: 30px;
+    width: 95%;
+  }
+
+  .seo_outline_title {
+    font-size: 20px;
+  }
+
+  .seo_outline_list {
+    font-size: 15px;
+    padding-left: 25px;
+  }
+}

@@ -1,0 +1,115 @@
+import React, { useEffect, useRef, useState } from 'react'
+import Data from './Apidata'
+import "./App.css";
+function Registration() {
+  //empty fields
+  let clearPicField=useRef(null)
+  let empty={
+       name:'',
+        age:'',
+        city:'',
+        email:'',
+        phone:'',
+        pic:'',
+        address:''
+  }
+  //id increment hook
+  let [incId,setincId]=useState(Data)
+  let Increment=(person)=>{
+person.id=incId.length+1;
+setincId([...incId,person])
+  }
+
+  //input field hook
+  let [handle,sethandle]=useState([])
+ let handlechange = (e) => {
+  let { name, value, type, files } = e.target;
+
+  if (type === "file") {
+    sethandle({
+      ...handle,
+      [name]: URL.createObjectURL(files[0])   // create a preview URL
+    });
+  } else {
+    sethandle({
+      ...handle,
+      [name]: value
+    });
+  }
+};
+//backend attachment
+
+
+  return (
+      //user form
+    <div>
+      <div className='container w-50 mt-5 mb-5' id='a14'>
+      <h1 className='text-center text-decoration-underline'>Register Yourself</h1>
+      <form action=""
+      onSubmit={(e)=>{
+e.preventDefault()
+Increment(handle);
+sethandle(empty)
+clearPicField.current.value=""
+      }}
+      >
+        <label htmlFor="">Name</label>
+        <input name="name"  onChange={handlechange} value={handle.name}  type="text" className='form-control' placeholder='Enter Your Age' id='a15' />
+        <label htmlFor="">Age</label>
+        <input name="age" onChange={handlechange} value={handle.age}   type="text" className='form-control' placeholder='Enter Your Age' id='a15' />
+        <label htmlFor="">City</label>
+        <input name="city" onChange={handlechange} value={handle.city}   type="text" className='form-control' placeholder='Enter Your City'  id='a15'/>
+        <label htmlFor="">Email</label>
+        <input name="email" onChange={handlechange} value={handle.email}    type="email" className='form-control' placeholder='Enter Your Email' id='a15' />
+        <label htmlFor="">Phone</label>
+        <input name="phone" onChange={handlechange}value={handle.phone}    type="number" className='form-control' placeholder='Enter Your Number' id='a15' />
+        <label htmlFor="">Pic</label>
+        <input name="pic" type="file" onChange={handlechange} ref={clearPicField}  className='form-control'  id='a15'/>
+        <label htmlFor="">Address</label>
+        <input name='address' onChange={handlechange} value={handle.address}    type="text " className='form-control' placeholder='Enter Your Address'  id='a15'/>
+        <input type="submit" className='btn btn-primary w-100 mt-3 text-dark mb-3' id='a15'/>
+      </form>
+    </div>
+
+    {/* ............................table.............. */}
+    <center>
+      <div className='w-75 mt-5 mb-5'>
+<table className='table table-bordered table-hover table-striped'>
+<thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Pic</th>
+    <th>Address</th>
+  </tr>
+</thead>
+<tbody>
+    {
+      incId.map((pro)=>(
+        <tr>
+<td>{pro.id}</td>
+<td>{pro.name}</td>
+<td>{pro.age}</td>
+<td>{pro.city}</td>
+<td>{pro.email}</td>
+<td>{pro.phone}</td>
+<td>
+  {pro.pic && <img src={pro.pic} alt="pic" width="60" />}
+</td><td>{pro.address}</td>
+  </tr>
+      ))
+    
+    }
+</tbody>
+</table>
+    </div>
+    </center>
+    </div>
+  )
+}
+
+export default Registration
